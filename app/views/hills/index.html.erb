@@ -1,0 +1,7 @@
+<h2>Hills</h2>
+<% @hills.each do |hill| %>
+	<p>ID: <%= link_to hill.id, hill %></p>
+	<p>Size: <%= hill.size %></p>
+	<p>Location: <%= hill.location %></p>
+	<hr>
+<% end %>
